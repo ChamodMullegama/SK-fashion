@@ -1,0 +1,119 @@
+#items_deals_FH_home,
+#items_deals_BW_home {
+    width: 96% !important;
+    margin-left: 2% !important;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.2);
+}
+.container {
+    min-height: 50vh !important;
+    margin-top: 3vh;
+    scroll-snap-align: start;
+}
+.container_pr{
+    display: flex;
+    justify-content: space-around;
+}
+.product{
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    transition: transform 0.3s ease;
+    width: auto;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    max-width: 300px !important;
+    min-width: 300px !important;
+    transform: background-color 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.043);
+}
+.product:hover {
+    background-color: rgba(255, 166, 0, 0.162);
+}
+.product p{
+    margin: 0;
+    padding: 0;
+}
+.p_image {
+    max-width: 100%;
+    height: 375px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.name {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+}
+.price {
+    color: #f30707;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Raleway', sans-serif;
+}
+.add-to-cart {
+    background-color:#000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-size: small;
+    transition: background-color 0.3s ease;
+    position: relative;
+}
+
+.add-to-cart:hover {
+    background-color: rgb(94, 94, 94);
+    color: #ffffff;
+}
+@media only screen and (max-width: 600px) {
+    .container_pr{
+        padding: 0;
+        margin: 0;
+    }
+    .product {
+        width: 100%;
+        margin-left: 10%;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        max-width: 450px !important;
+        h3{
+            font-size: 22px;
+        }
+        p{
+            font-size: small;
+        }
+    }
+
+    .product:hover {
+        transform: translateY(-5px);
+    }
+
+    .add-to-cart {
+        height: 35px;
+        margin-top: 20px;
+    }
+
+    .p_image {
+        max-width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .container {
+        padding: 5px;
+    }
+}

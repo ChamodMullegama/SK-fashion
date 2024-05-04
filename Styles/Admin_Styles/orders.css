@@ -1,0 +1,47 @@
+.box-container{
+    width: 90%;
+    height: 300px;
+    margin-top: 120px;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+    width: 25%;
+    height: 250px;
+    background-color: hsl(219, 18%, 15%);
+    border-radius: 10px;
+}
+
+table{
+    width: 90%;
+    margin-left: 6%;
+}
+
+table tr,td{
+    padding: 10px;
+}
+
+table .actions{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1rem;
+    align-items: center;
+}
+
+table a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: hsl(219, 18%, 15%);
+    border-radius: 10px;
+    width: 180px;
+    text-align: center;
+}
+
+table a:hover{
+    background-color: hsl(219, 18%, 5%);
+}

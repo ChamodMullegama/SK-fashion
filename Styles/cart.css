@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    top: 0;
+    background-color: rgb(245, 247, 255);
+}
+#navBarHome {
+    display: block;
+}
+#mobileNav {
+    display: none;
+}
+.top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.main_container_div {
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px !important;
+    box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.h1 {
+    text-align: center;
+    color: black;
+}
+.table {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-radius: 10px !important;
+    overflow: hidden;
+}
+table {
+    border-collapse: collapse;
+    padding: 10px;
+    width: 100%;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+.product-image {
+    width: 125px;
+    height: 180px;
+    border-radius: 10px;
+}
+.quantity-input {
+    width: 75px;
+    border-radius: 5px;
+}
+.clearBtn {
+    width: 100% !important;
+    background-color: #000000;
+    color: white;
+    padding: 10px 75px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    transform: 0.5s linear;
+    margin-right: 10px !important;
+}
+.clearBtn:hover {
+    background-color: #920000;
+}
+
+.buttonsOfCart_main{
+    width: 100% !important;
+    display: flex;
+}
+.buttonsOfCart{
+    width: 15% !important;
+    margin-left: 10px !important;
+}
+.buttonsOfCart2{
+    width: 20% !important;
+    margin-left: 10px !important;
+}
+.buttonsOfCart .btn,
+.buttonsOfCart2 .btn{
+    width: 100% !important;
+    background-color: #000000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    transform: 0.5s linear;
+}
+.buttonsOfCart .btn:hover,
+.buttonsOfCart2 .btn:hover{
+    background-color: #004db9;
+    color: white;
+}
+.buttonsOfEmptyCart .btn{
+    width: 15% !important;
+    background-color: #e07b00;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-left: 42.5% !important;
+    margin-bottom: 5vh !important;
+    transform: 0.5s linear;
+}
+.buttonsOfEmptyCart .btn:hover{
+    color: rgb(255, 255, 255);
+    background-color: #a43f00;
+}
+h2{
+    float: right !important;;
+}
+#total-bill {
+    font-weight: 400;
+    font-family:sans-serif !important;
+}
+.clearBtn{
+    width: 100%;
+}
+.remove{
+    background-color: #000000;
+    color: white;
+    text-decoration: none !important;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    transform: 0.5s linear;
+    border-radius: 10px;
+}
+.remove:hover{
+    background-color: #710000;
+    color: white;
+}
+
+.total_info{
+    padding: 10px;
+    border-radius: 10px;
+}
+.empty_note{
+    padding-left: 43%;
+}
+.emptyCartImg{
+    width: 450px; 
+    height: 300px; 
+    padding:50px; 
+    margin-left:34.5%; 
+    margin-top: -5vh; 
+    filter: grayscale(100%);
+}
+@media only screen and (max-width: 600px) {
+    #navBarHome {
+        display: none;
+    }
+    #mobileNav {
+        display: block;
+    }
+    body {
+        font-size: 16px;
+    }
+    .main_container_div {
+        margin-top: 70px !important;
+        width: 96%;
+        margin-left: 2%;
+        padding: 5px !important;
+    }
+    table {
+        max-width: 550px !important;
+    }
+    .product-image {
+        width: 75px;
+        height: 100px;
+    }
+    .quantity-input {
+        width: 30px;
+    }
+    .productName{
+        max-width: 100px !important;
+        word-wrap: break-word;
+    }
+    .clearBtn {
+        padding: 10px 15px;
+    }
+    .buttonsOfCart,
+    .buttonsOfCart2{
+        width: 40% !important;
+    }
+    .buttonsOfCart .btn,
+    .buttonsOfCart2 .btn{
+        padding: 10px 10px !important;
+    }
+    .remove{
+        padding: 10px 10px;
+    }
+    .buttonsOfEmptyCart .btn{
+        margin-left: 25% !important;
+        width: 50% !important;
+        padding: 10px 10px;
+    }
+    .empty_note{
+        padding-left: 32% !important;
+    }
+    .emptyCartImg{
+        margin-left:10%; 
+    }
+    .m_fail_img{
+        display: none !important;
+    }
+}

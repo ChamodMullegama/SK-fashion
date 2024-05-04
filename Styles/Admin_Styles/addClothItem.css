@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    border: 1px solid hsl(0, 4%, 10%);
+    width: 1000px;
+    height: auto;
+    margin-left: 15%;
+    border-radius: 10px;
+    box-shadow: 3px 7px 14px #888888;
+}
+
+form select{
+    width: 965px;
+    padding: 5px;
+}
+
+.form-conatiner{
+    padding: 15px;
+}
+
+form input {
+    width: 950px;
+    padding: 5px;
+}
+
+.checkbox-group{
+    display: flex;
+    justify-content: space-around;
+}
+
+input #images{
+    font-size: 1rem;
+}
+
+form textarea{
+    width: 950px;
+    padding: 5px;
+}
+
+form button{
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background-color: hsl(120, 85%, 27%);
+    color: white;
+    border-radius: 5px;
+}

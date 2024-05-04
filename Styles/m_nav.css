@@ -1,0 +1,242 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+}
+
+.top_M {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.all_top_M{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #000000;
+}
+
+.col_01_M{
+    margin: 0;
+    padding: 0;
+    width: 85%;
+    height: auto;
+}
+
+.col_01_M .open_menu{
+    padding-left: 20px;
+    font-size: 34px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+.open_menu i{
+    padding-right: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.col_02_M {
+    width: 9%;
+    height: auto;
+    float: right;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: rgba(17, 17, 17, 0.9);
+    color: wheat;
+    overflow-x: hidden;
+    transition: 0.6s;
+    padding-top: 60px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+#SK_F_HUB{
+    background-color: rgba(32, 32, 32, 0.9); 
+    border:none; 
+    color: #818181;
+}
+
+.links_M_bottum i{
+    margin-right: 20px;
+    font-size: 15px;
+}
+.links_M{
+    display: flex;
+}
+.links_M i{
+    margin-left: 20px;
+}
+
+.links_M #dropdown{
+    width: 28px;
+    height: 28px;
+    padding: 5px;
+    color: white;
+    margin-left: 20px;
+    border-radius: 50%;
+    justify-content: center;
+    float: right;
+    transition: background-color 1s ease;
+}
+.links_M #dropdown:hover{
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+
+#dropdown {
+    display: none;
+}
+
+.links_M.active #dropdown {
+    display: block;
+}
+
+.sidenav .links_M , .sidenav .links_M_bottum{
+    width: 96%;
+    margin-left: 2%;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(32, 32, 32, 0.9);
+    text-align: left;
+    margin-bottom: 5px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.category-container_M{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.sidenav .links_M_drop i{
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.sidenav .links_M_drop {
+    width: 100% !important;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    margin-left: 12%;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+
+.sidenav .links_M_drop:hover{
+    color: #ffffff;
+}
+
+.links_M.active {
+    border-left: 3px solid rgb(255, 153, 0) !important;
+}
+
+.sidenav .links_M:hover #SK_F_HUB,
+#SK_F_HUB:hover {
+    background-color: #3a3a3a;
+    color: #f1f1f1;
+}
+
+.sidenav .links_M:hover, .sidenav .links_M_bottum:hover{
+    color: #f1f1f1;
+    background-color: #3a3a3a;
+}
+
+.sidenav .links_M_bottum {
+    position: absolute;
+    bottom: 0;
+}
+
+.sidenav .links_M_bottum.username i {
+    margin-left: 10px;
+}
+.sidenav .links_M_bottum.username {
+    bottom: 100px;
+    margin-bottom: 10px;
+}
+.sidenav .links_M_bottum.oder {
+    bottom: 50px;
+    margin-bottom: 10px;
+}
+
+.sidenav .links_M_bottum.logout {
+    bottom: 0;
+    background-color: rgb(141, 0, 0);
+    color: #8d8d8d;
+}
+
+.links_M_bottum.logout:hover {
+    bottom: 0;
+    background-color: rgb(176, 0, 0);
+    color: #ffffff;
+}
+
+.sidenav .closebtn_M {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: #ffffff;
+}
+input[type="search"] {
+    width: 96%;
+    margin-left: 2%;
+    background-color: rgba(105, 105, 105, 0.5);
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    padding: 10px 15px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+}
+
+input[type="search"]:focus {
+    border-bottom: 1px solid #ffffff;
+}
+
+input[type="search"]::placeholder{
+    padding: 10px 0px;
+    color: #ffffff;
+}
+
+input[type="search"]::-webkit-search-clear-button {
+    -webkit-appearance: none;
+    appearance: none;
+    color: white;
+    cursor: pointer;
+}
+.logo_M_nav{
+    width: 40%;
+    height: auto;
+    margin-left: 30%;
+    margin-bottom: 5vh;
+    border-radius: 50%;
+}

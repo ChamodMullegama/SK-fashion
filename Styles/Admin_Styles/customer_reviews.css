@@ -1,0 +1,40 @@
+h1{
+    margin-top: 10%;
+    margin-left: 2%;
+}
+
+.all-reviews-box{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 10px rgb(76, 81, 82);
+    height: auto;
+    background-color: hsl(219, 18%, 15%);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.all-reviews-box h2{
+    color: hsl(184, 62%, 67%);
+}
+
+table tr,td{
+    padding: 25px;
+}
+
+#delete{
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+#delete{
+    background-color: hsl(0, 78%, 58%);
+}
+
+#delete:hover{
+    background-color: hsl(0, 78%, 48%);
+}

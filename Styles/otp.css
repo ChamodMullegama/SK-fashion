@@ -1,0 +1,61 @@
+body {
+    overflow: hidden;
+    background-color: rgb(40, 40, 40);
+  }
+  .box_view_1 {
+    width: 30%;
+    height: auto;
+    margin-top: 20vh;
+    margin-left: 35%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+  }
+  h1 {
+    padding: 3vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Saira Extra Condensed", sans-serif;
+  }
+  button {
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+    margin-left: 10%;
+    background-color: rgb(255, 166, 0);
+  }
+  button:hover {
+    background-color: rgb(255, 211, 129);
+  }
+  input[type="text"],
+  input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin-left: 10%;
+    display: inline-block;
+    border: 1px solid rgb(255, 241, 161);
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+  }
+  .login-status-message-error {
+    width: 77%;
+    margin-left: 10%;
+    color: #ff5555;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #ffebee;
+    transition: opacity 0.3s ease;
+  }
+  
+  .login-status-message-success {
+    width: 77%;
+    margin-left: 10%;
+    font-weight: 300;
+    color: #33cc33;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f0fff0;
+    transition: opacity 0.3s ease;
+}

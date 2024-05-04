@@ -1,0 +1,28 @@
+**** SK FACTION ****
+
+**Database Name: sk_clothing
+
+**Recommended PHP Version 7.4, 8.1.**
+
+**customer verification will involve accessing the database and updating their active status based on their email during registration and login**
+
+**regisied customer Login Details**
+
+Email: ruwanmg99@gmail.com
+Password: VNR2001vnr#
+*We recommend creating a new account to get a fresh experience.
+
+**Admin Login Details**
+
+user name: skclothing
+Password: SK2001
+
+*If there are any issues, please contact **
+
+Name:chamod mullegama
+Phone: 0702740542
+Email: chamod.mullegama@gmail.com
+
+Name:visitha rajapaksha
+Phone:  0781262257
+Email: visitha2001@gmail.com

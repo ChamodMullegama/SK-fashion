@@ -1,0 +1,190 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f2f2f2;
+  background-image: url("../IMAGES/backgrounds/73.jpg");
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  /* background-position: center; */
+}
+p {
+  text-align: center;
+}
+.top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+#navBarHome {
+  display: block;
+}
+#mobileNav {
+  display: none;
+}
+#row{
+  margin-top: 100px !important;
+  height: auto !important;
+  margin-bottom: 100px !important;
+}
+#row2{
+  margin-top: 42px !important;
+}
+.img-account-profile {
+  height: 10rem;
+}
+.rounded-circle {
+  border-radius: 50% !important;
+}
+#card {
+  margin-top: 10%;
+}
+.card {
+  box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+  margin-top: 17%;
+}
+.card .card-header {
+  font-weight: 500;
+}
+.card-header:first-child {
+  border-radius: 0.35rem 0.35rem 0 0;
+}
+.card-header {
+  padding: 1rem 1.35rem;
+  margin-bottom: 0;
+  background-color: rgba(33, 40, 50, 0.03);
+  border-bottom: 1px solid rgba(33, 40, 50, 0.125);
+}
+.form-control,
+.dataTable-input {
+  display: block;
+  width: 100%;
+  padding: 0.875rem 1.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1;
+  color: #69707a;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #c5ccd6;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.35rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.nav-borders .nav-link.active {
+  color: #0061f2;
+  border-bottom-color: #0061f2;
+}
+.nav-borders .nav-link {
+  color: #69707a;
+  border-bottom-width: 0.125rem;
+  border-bottom-style: solid;
+  border-bottom-color: transparent;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+#Profile {
+  margin-top: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+  #navBarHome {
+    display: none;
+  }
+
+  #mobileNav {
+    display: block;
+  }
+
+  body {
+    background-size: auto;
+  }
+
+  #row{
+    margin-top: 25px !important;
+    height: 100vh !important;
+  }
+
+  #row2{
+    margin-top: 10px !important;
+  }
+
+  .container {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 100px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  .prof_info {
+    display: inline;
+    align-items: center;
+  }
+
+  .profile-info {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .profile-info .sp_p {
+    padding-top: 20px;
+  }
+
+  .logout-btn a {
+    padding: 10px 20px;
+  }
+
+  .prof_logo {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 3vh;
+  }
+
+  .text_layer label {
+    padding-bottom: 65px;
+  }
+
+  form {
+    padding: 3vh;
+  }
+
+  .Shipping_info {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  input[type="text"],
+  input[type="submit"] {
+    width: 100%;
+    margin-left: 0;
+  }
+  input[type="search"] {
+    display: none !important;
+  }
+
+  .ship_info {
+    flex-direction: column;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .shipping-details,
+  .edit-btn {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .form-group label {
+    margin: 0;
+    padding: 0;
+  }
+}

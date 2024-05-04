@@ -1,0 +1,186 @@
+table{
+    margin-top: -33%;
+    margin-left: 35%;
+}
+
+table tr,td{
+    padding: 10px;
+}
+
+#delete,#viewMore{
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+#delete{
+    background-color: hsl(0, 78%, 58%);
+}
+
+#delete:hover{
+    background-color: hsl(0, 78%, 48%);
+}
+
+#viewMore{
+    background-color: hsl(189, 81%, 51%);
+}
+
+#viewMore:hover{
+    background-color: hsl(189, 81%, 41%);
+}
+
+.verified {
+    color: hsl(120, 69%, 69%);
+}
+
+.unverified {
+    color: red;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: hsl(219, 18%, 15%);
+    margin-top: 150px;
+    margin-left: 23%;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.profile-pic {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.close-button{
+    background-color: hsl(180, 84%, 42%);
+    padding: 7px;
+    font-size: 1.3rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 90%;
+}
+
+.close-button:hover{
+    background-color: hsl(180, 84%, 52%);
+}
+
+.boxes{
+    width: 23%;
+    margin-top: 9%;
+    height: 35vh;
+    background-color: hsl(219, 18%, 15%);
+    border-radius: 10px;
+    margin-left: 3%;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top span{
+    margin-right: 5%;
+    margin-top: 5%;
+    font-size: 7rem;
+    color: hsla(0, 0%, 100%, 0.2);
+}
+
+h3{
+    margin-top: 10px;
+    font-size: 4rem;
+    margin-left: 20px;
+}
+
+h2{
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.search-bar-conatiner{
+    margin-top: -17.4%;
+    margin-left: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.search-bar-conatiner input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    background-color: hsl(219, 18%, 15%);
+    width: 80%;
+    color: hsla(0, 0%, 100%);
+}
+
+.search-bar-conatiner span{
+    font-size: 2.8rem;
+}
+
+.reviews-box{
+    margin-top: 3%;
+    width: 21.8%;
+    height: 150px;
+    background-color: hsl(219, 18%, 15%);
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 3%;
+}
+
+.reviews-box .review-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.reviews-box .review-top span{
+    font-size: 5rem;
+    color: hsla(0, 0%, 100%, 0.2);
+}
+
+.reviews-box a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: hsl(180, 84%, 52%);
+    border-radius: 5px;
+    margin-left: 75%;
+    font-weight: bold;
+}
+
+.reviews-box a:hover{
+    background-color: hsl(180, 84%, 42%);
+}

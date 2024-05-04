@@ -1,0 +1,187 @@
+body{
+    background-image: url("../IMAGES/backgrounds/stylish-asian-senior-woman-going-shopping-wearing-trendy-clothes-sunglasses-holding-store-bags-w.jpg");
+    background-size: cover;
+    /* background-position: center; */
+}
+#navBarHome {
+    display: block;
+}
+#mobileNav {
+    display: none;
+}
+.top{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+#searchDropdown, #CartItems{
+    display: none;
+}
+.box_view_1{
+    width: 30%;
+    height: auto;
+    margin-top: 20vh;
+    margin-left: 35%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: relative;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.box_view_2{
+    width: 30%;
+    height: auto;
+    margin-top: 1vh;
+    margin-left: 35%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: relative;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+h1{
+    padding: 3vh;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+.have{
+    margin-left: 10%;
+    color: rgb(255, 255, 255);
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+.fogot{
+    float: right;
+    margin-top: 1vh;
+    margin-right: 10%;
+    color: rgb(255, 255, 255);
+}
+.terms{
+    margin-top: 1vh;
+    margin-left: 10%;
+    color: rgb(255, 255, 255);
+}
+hr{
+    width: 80%;
+    margin-left: 10%;
+    color: rgb(255, 255, 255);
+}
+.btn_log_reg{
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 5vh;
+    margin-left: 10%;
+    background-color: rgb(255, 166, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn_log_reg:hover{
+    background-color: rgb(255, 234, 194);
+    color: #000000;
+}
+input[type=text],
+input[type=email],
+input[type=password] {
+    width: 80%;
+    padding: 10px;
+    margin-left: 10%;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+label{
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 10px 0px;
+    margin-left: 10%;
+}
+.login-status-message-error {
+    width: 80%;
+    margin-left: 10%;
+    color: #ff0000;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: rgb(255, 182, 193);
+    transition: opacity 0.3s ease;
+}
+  
+.login-status-message-success {
+    width: 80%;
+    margin-left: 10%;
+    font-weight: 300;
+    color: rgb(0, 183, 40);
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #88ff88;
+    transition: opacity 0.3s ease;
+}
+
+.cross {
+    position: fixed;
+    width: 3%;
+    top: 130px;
+    right: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.cross:hover{
+    background-color:  rgba(0, 0, 0, 0.8);
+}
+
+.cross a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.cross i {
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+    #navBarHome {
+        display: none;
+    }
+    
+    #mobileNav {
+        display: block;
+    }
+
+    body{
+        background-image: url("../IMAGES/backgrounds/2149018780.jpg");
+        background-size: contain;
+    }
+    .box_view_1 {
+        width: 80%;
+        margin-top: 15vh;
+        margin-left: 10%;
+        background-color: rgba(0, 0, 0, 0.5)
+    }
+    .box_view_2 {
+        width: 80%;
+        margin-top: 1vh;
+        margin-left: 10%;
+        background-color: rgba(0, 0, 0, 0.5)
+    }
+    input[type=text],
+    input[type=email],
+    input[type=password] {
+        background-color: rgba(255, 255, 255,0.5);
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .cross {
+        display: none;
+    }
+}

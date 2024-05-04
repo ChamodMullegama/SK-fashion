@@ -1,0 +1,43 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: hsl(219, 17%, 24%);
+    color: white;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    background: hsl(219, 18%, 15%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 100;
+    color: white;
+    
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: default;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a{
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: rgb(31, 236, 236);
+}

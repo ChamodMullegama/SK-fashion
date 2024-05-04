@@ -1,0 +1,143 @@
+#navBarHome {
+    display: block;
+}
+#mobileNav {
+    display: none;
+}
+#back-to-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffa600;
+    color: #000000;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 1;
+}
+#back-to-top-btn:hover {
+    background-color: #ffc46c;
+    color: #000;
+}
+h2 {
+    margin-top: 30px;
+    font-size: 30px;
+    color: #666;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.container {
+    width: 100% !important;
+    min-height: 50vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container_rent{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+    grid-gap: 5px 25px;
+}
+.rent_product{
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    transition: transform 0.3s ease;
+    width: auto;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.12);
+}
+.rent_product p{
+    margin: 0;
+    padding: 0;
+}
+.p_image {
+    max-width: 100%;
+    height: 375px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.name {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+}
+.price {
+    color: #f30707;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Raleway', sans-serif;
+}
+.add-to-cart {
+    background-color:#000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-size: small;
+    transition: background-color 0.3s ease;
+    position: relative;
+}
+
+.add-to-cart:hover {
+    background-color: rgb(94, 94, 94);
+    color: #ffffff;
+}
+@media only screen and (max-width: 600px) {
+    #navBarHome {
+        display: none;
+    }
+    #mobileNav {
+        display: block;
+    }
+    .rent_product {
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 30px;
+    }
+
+    .rent_product:hover {
+        transform: translateY(-5px);
+    }
+
+    .name {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+    .rent_product h3 {
+        font-size: 14px;
+    }
+
+    .price {
+        font-size: medium;
+    }
+
+    .add-to-cart {
+        height: 35px;
+        margin-top: 20px;
+    }
+
+    .p_image {
+        max-width: 100%;
+        height: 400px;
+        justify-content: center;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .container {
+        margin-top: 30px;
+        padding: 5px;
+    }
+}
