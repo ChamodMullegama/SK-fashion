@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./Styles/Admin_Styles/add_item.css">
     <STyle>
-        /* add_item.css */
+
 .item-image {
-    max-width: 100px; /* Set your desired maximum width */
-    height: auto; /* Maintain aspect ratio */
-    border: 1px solid #ddd; /* Add a border for better visibility */
-    border-radius: 5px; /* Optional: Add border radius for a rounded appearance */
-    /* Add more styles as needed */
-}
+    max-width: 100px; 
+    height: auto; 
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+    }
 
     </STyle>
 </head>
