@@ -6,19 +6,19 @@
 <div align="center">
   <table>
     <tr>
-      <td><img src="/Documents/Demo Images/home.png" width="300" alt="Home Page"></td>
-      <td><img src="/Documents/Demo Images/products.png" width="300" alt="Products Page"></td>
-      <td><img src="/Documents/Demo Images/cart.png" width="300" alt="Cart Page"></td>
+      <td><img src="/Documents/Demo Images/1.png" width="300" alt="Home Page"></td>
+      <td><img src="/Documents/Demo Images/2.png" width="300" alt="Products Page"></td>
+      <td><img src="/Documents/Demo Images/3.png" width="300" alt="Cart Page"></td>
     </tr>
     <tr>
-       <td><img src="/Documents/Demo Images/login.png" width="300" alt="Login Page"></td>
-       <td><img src="/Documents/Demo Images/register.png" width="300" alt="Register Page"></td>
-       <td><img src="/Documents/Demo Images/checkout.png" width="300" alt="Checkout Page"></td>
+       <td><img src="/Documents/Demo Images/4.png" width="300" alt="Login Page"></td>
+       <td><img src="/Documents/Demo Images/5.png" width="300" alt="Register Page"></td>
+       <td><img src="/Documents/Demo Images/6.png" width="300" alt="Checkout Page"></td>
     </tr>
     <tr>
-       <td><img src="/Documents/Demo Images/admin-dashboard.png" width="300" alt="Admin Dashboard"></td>
-       <td><img src="/Documents/Demo Images/manage-products.png" width="300" alt="Manage Products"></td>
-       <td><img src="/Documents/Demo Images/orders.png" width="300" alt="Orders Page"></td>
+       <td><img src="/Documents/Demo Images/7.png" width="300" alt="Admin Dashboard"></td>
+       <td><img src="/Documents/Demo Images/8.png" width="300" alt="Manage Products"></td>
+       <td><img src="/Documents/Demo Images/9.png" width="300" alt="Orders Page"></td>
     </tr>
   </table>
 </div>
