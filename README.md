@@ -45,11 +45,11 @@
 - phpMyAdmin – Database management  
 
 ## ⚙️ Installation
-1.Clone the project
-2.Move project folder to your server directory (e.g., htdocs for XAMPP)
-3.Create a MySQL database (e.g., skfashion)
-4.Import the provided SQL file into the database
-5.Update config.php (or relevant DB config file) with your database credentials
-6.Start Apache and MySQL from XAMPP (or your server)
-7.Run the project in your browser via http://localhost/index.php
+1. Clone the project
+2. Move project folder to your server directory (e.g., htdocs for XAMPP)
+3. Create a MySQL database (e.g., skfashion)
+4. Import the provided SQL file into the database
+5. Update config.php (or relevant DB config file) with your database credentials
+6. Start Apache and MySQL from XAMPP (or your server)
+7. Run the project in your browser via http://localhost/index.php
 
